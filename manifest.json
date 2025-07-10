@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LLaMA 3 Prompt Sender",
+  "version": "1.0",
+  "description": "Send text to local Ollama",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
